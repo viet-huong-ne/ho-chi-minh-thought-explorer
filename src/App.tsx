@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Phan2 from "./pages/Phan2";
 import Phan3 from "./pages/Phan3";
-import Quiz from "./pages/Quiz";
 import NotFound from "./pages/NotFound";
 import Quiz from "./pages/Quiz";
 
