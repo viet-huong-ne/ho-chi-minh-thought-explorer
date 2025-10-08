@@ -9,15 +9,12 @@ const About = () => {
     { name: "Hường", role: "Phát triển Web", icon: Code },
     { name: "Hậu", role: "Phát triển Web", icon: Code },
     { name: "Hiền", role: "Nội dung", icon: BookOpen },
-    { name: "Dũng", role: "Nội dung", icon: BookOpen },
+    { name: "Hy", role: "Nội dung", icon: BookOpen },
   ];
 
   const technologies = [
     { name: "Lovable", description: "Nền tảng phát triển web AI-powered" },
-    { name: "React", description: "Thư viện JavaScript để xây dựng giao diện" },
-    { name: "TypeScript", description: "Ngôn ngữ lập trình có kiểu mạnh" },
-    { name: "Tailwind CSS", description: "Framework CSS utility-first" },
-    { name: "Vite", description: "Build tool hiện đại và nhanh chóng" },
+    { name: "ChatGPT", description: "Nền tảng được dùng để tạo ra một số ảnh và làm lại ảnh" },
   ];
 
   const sources = [
@@ -32,9 +29,9 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <HeroSection
+      <HeroSection 
         title="Giới thiệu về Dự án"
-        subtitle="Hành trình xây dựng website học tập tư tưởng Hồ Chí Minh"
+        subtitle=""
         imageSrc={aboutHero}
       />
 
@@ -46,11 +43,11 @@ const About = () => {
         >
           <div className="space-y-6">
             <p className="text-lg text-foreground leading-relaxed">
-              Dự án website <strong>"Tư tưởng Hồ Chí Minh"</strong> được xây dựng nhằm mục đích tạo ra một nền tảng học tập trực tuyến, 
+              Dự án website <strong>"Tư tưởng Hồ Chí Minh"</strong> được xây dựng nhằm mục đích tóm tắt về tư tưởng cách mạng của Chủ tịch Hồ Chí Minh, 
               giúp sinh viên và người học dễ dàng tiếp cận, tìm hiểu về hệ thống tư tưởng cách mạng của Chủ tịch Hồ Chí Minh.
             </p>
             <p className="text-lg text-foreground leading-relaxed">
-              Website cung cấp nội dung được tổ chức khoa học theo từng phần: cơ sở hình thành, quá trình phát triển, giá trị và ý nghĩa, 
+              Website cung cấp nội dung được tổ chức theo từng phần: cơ sở hình thành, quá trình phát triển, giá trị và ý nghĩa, 
               cùng với bài trắc nghiệm giúp củng cố kiến thức.
             </p>
           </div>
@@ -59,7 +56,7 @@ const About = () => {
         {/* Đội ngũ */}
         <ContentSection
           title="Đội ngũ thực hiện"
-          subtitle="4 thành viên cùng chung tay xây dựng"
+          subtitle="4 thành viên"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
             {teamMembers.map((member, index) => {
@@ -97,14 +94,9 @@ const About = () => {
               <div className="flex items-start gap-4">
                 <Sparkles className="h-12 w-12 text-primary-foreground flex-shrink-0 mt-1" />
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-primary-foreground mb-3">Lovable - AI-Powered Development</h3>
+                  <h3 className="text-2xl font-bold text-primary-foreground mb-3">Lovable - AI Development</h3>
                   <p className="text-lg text-primary-foreground/90 leading-relaxed">
-                    Website này được xây dựng hoàn toàn bằng <strong>Lovable</strong> - một nền tảng phát triển web thế hệ mới, 
-                    sử dụng trí tuệ nhân tạo để hỗ trợ tạo giao diện đẹp mắt, responsive và hiện đại chỉ trong thời gian ngắn.
-                  </p>
-                  <p className="text-lg text-primary-foreground/90 leading-relaxed mt-3">
-                    Lovable giúp chúng tôi tập trung vào nội dung và trải nghiệm người dùng, 
-                    đồng thời tự động sinh code React, TypeScript và Tailwind CSS chất lượng cao.
+                    Website được xây dựng bằng <strong>Lovable</strong>. Sử dụng trí tuệ nhân tạo để hỗ trợ tạo giao diện đẹp mắt, responsive và hiện đại chỉ trong thời gian ngắn.
                   </p>
                 </div>
               </div>
@@ -150,8 +142,7 @@ const About = () => {
             <Users className="h-12 w-12 text-primary-foreground mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-primary-foreground mb-3">Lời cảm ơn</h3>
             <p className="text-lg text-primary-foreground/90 max-w-2xl">
-              Chúng tôi xin chân thành cảm ơn quý thầy cô đã hướng dẫn, 
-              cùng tất cả những người đã đóng góp ý kiến để hoàn thiện dự án này.
+              Chúng tôi xin chân thành cảm ơn thầy cô và bạn bè đã dành thờI gian xem dự án của chúng tôi.
             </p>
           </div>
         </div>
@@ -160,7 +151,6 @@ const About = () => {
       <footer className="border-t border-border bg-card/50 py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>© 2025 - Dự án Tư tưởng Hồ Chí Minh</p>
-          <p className="text-sm mt-2">Được xây dựng với ❤️ bằng Lovable</p>
         </div>
       </footer>
     </div>
