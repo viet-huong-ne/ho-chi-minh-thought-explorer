@@ -33,7 +33,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <HeroSection />
+      <HeroSection 
+        title="Phần 1: Cơ sở hình thành tư tưởng Hồ Chí Minh"
+        subtitle="Nền tảng lịch sử, văn hóa, tư tưởng và chủ quan hình thành nên hệ tư tưởng cách mạng vĩ đại."
+      />
       
       <main className="container mx-auto px-4 py-16">
         {/* Tổng quan */}

@@ -7,7 +7,8 @@ const Header = () => {
     { path: "/", label: "Phần 1" },
     { path: "/phan2", label: "Phần 2" },
     { path: "/phan3", label: "Phần 3" },
-    { path: "/quiz", label: "Trắc nghiệm" }
+    { path: "/quiz", label: "Trắc nghiệm" },
+    { path: "/about", label: "Giới thiệu" }
   ];
 
   return (
