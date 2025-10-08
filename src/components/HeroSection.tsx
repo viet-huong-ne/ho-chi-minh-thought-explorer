@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-hcm.jpg";
+import heroImage from "@/assets/HCM.jpg";
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,12 @@ const HeroSection = () => {
           alt="Hồ Chí Minh" 
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-hero" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(rgba(224, 167, 167, 0.85), rgba(180, 40, 40, 0.85))",
+          }}
+        />
       </div>
       
       <div className="relative container mx-auto px-4 py-32">
@@ -20,7 +25,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">
             Nền tảng lịch sử, văn hóa, tư tưởng và chủ quan hình thành nên hệ tư tưởng cách mạng vĩ đại.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          {/* <div className="mt-8 flex flex-wrap gap-4">
             <div className="rounded-lg bg-card/90 px-6 py-3 backdrop-blur-sm shadow-medium">
               <div className="text-sm text-muted-foreground">Thời kỳ</div>
               <div className="text-lg font-bold text-foreground">1890 - 1969</div>
@@ -29,7 +34,7 @@ const HeroSection = () => {
               <div className="text-sm text-muted-foreground">Học thuyết</div>
               <div className="text-lg font-bold text-foreground">Mác - Lênin</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

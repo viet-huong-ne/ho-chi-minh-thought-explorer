@@ -12,6 +12,7 @@ export default {
         "2xl": "1400px",
       },
     },
+    
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -47,6 +48,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        beige: "#f6f0e7",
+    softWhite: "#fffaf3",
+    brownAccent: "#a34325",
+    borderBeige: "#ccc2b3",
+    textDark: "#3f3f3f",
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',

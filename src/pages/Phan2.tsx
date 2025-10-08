@@ -4,10 +4,10 @@ import ContentSection from "@/components/ContentSection";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
-import timelineHero from "@/assets/timeline-hero.jpg";
+import formationProcess from "@/assets/qua-trinh-hinh-thanh.png";
 import period1890 from "@/assets/period-1890.jpg";
 import period1920 from "@/assets/period-1920.jpg";
-import period1945 from "@/assets/period-1945.jpg";
+import period1945 from "@/assets/co-ban-tu-tuong-cach-mang.jpg";
 
 interface TimelinePeriod {
   year: string;
@@ -79,7 +79,7 @@ const Phan2 = () => {
       
       <section className="relative h-[400px] overflow-hidden">
         <img 
-          src={timelineHero} 
+          src={formationProcess} 
           alt="Quá trình hình thành tư tưởng" 
           className="absolute inset-0 w-full h-full object-cover"
         />
