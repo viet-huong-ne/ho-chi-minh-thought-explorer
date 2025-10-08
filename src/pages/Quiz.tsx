@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import quizHero from "@/assets/quiz-hero.jpg";
+import quizHero from "@/assets/HCM.jpg";
 
 interface Question {
   id: number;

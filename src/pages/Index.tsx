@@ -5,10 +5,10 @@ import QuoteCard from "@/components/QuoteCard";
 import ImageGrid from "@/components/ImageGrid";
 import TimelineItem from "@/components/TimelineItem";
 
-import revolutionScene from "@/assets/revolution-scene.jpg";
-import culturalHeritage from "@/assets/cultural-heritage.jpg";
-import journeyMap from "@/assets/journey-map.jpg";
-import theoryBooks from "@/assets/theory-books.jpg";
+import revolutionScene from "@/assets/cach-mang.jpg";
+import culturalHeritage from "@/assets/csvh.jpg";
+import journeyMap from "@/assets/hanhtrinhraditimduongcuunuoc.jpg";
+import theoryBooks from "@/assets/marx-lenin-hcm.jpg";
 import patternBg from "@/assets/pattern-bg.jpg";
 
 const Index = () => {
@@ -94,9 +94,9 @@ const Index = () => {
         >
           <div className="grid md:grid-cols-2 gap-6">
             <div className="rounded-xl bg-card p-6 shadow-soft border border-border hover:shadow-medium transition-all">
-              <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-primary flex items-center justify-center">
+              {/* <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-primary flex items-center justify-center">
                 <span className="text-2xl text-primary-foreground">🏛️</span>
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold text-foreground mb-3">Truyền thống văn hóa dân tộc</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Tinh thần yêu nước, tinh thần cộng đồng, đạo đức nhân nghĩa, lòng hiếu học, 
@@ -105,9 +105,9 @@ const Index = () => {
             </div>
 
             <div className="rounded-xl bg-card p-6 shadow-soft border border-border hover:shadow-medium transition-all">
-              <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-accent flex items-center justify-center">
+              {/* <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-accent flex items-center justify-center">
                 <span className="text-2xl text-accent-foreground">📚</span>
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold text-foreground mb-3">Ảnh hưởng Nho giáo</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Các yếu tố nhân bản, tu dưỡng đạo đức, trách nhiệm trước dân (trọng nghĩa, liêm khiết) 
@@ -116,9 +116,9 @@ const Index = () => {
             </div>
 
             <div className="rounded-xl bg-card p-6 shadow-soft border border-border hover:shadow-medium transition-all">
-              <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-primary flex items-center justify-center">
+              {/* <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-primary flex items-center justify-center">
                 <span className="text-2xl text-primary-foreground">☸️</span>
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold text-foreground mb-3">Ảnh hưởng Phật giáo</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Yếu tố nhân văn (lòng thương người), tinh thần vị tha, ý thức cứu khổ ban vui 
@@ -127,9 +127,9 @@ const Index = () => {
             </div>
 
             <div className="rounded-xl bg-card p-6 shadow-soft border border-border hover:shadow-medium transition-all">
-              <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-accent flex items-center justify-center">
+              {/* <div className="mb-3 h-12 w-12 rounded-lg bg-gradient-accent flex items-center justify-center">
                 <span className="text-2xl text-accent-foreground">🌍</span>
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold text-foreground mb-3">Tư tưởng dân chủ phương Tây</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Tư tưởng Tự do - Bình đẳng - Bác ái, phong trào lao động và dân quyền được tiếp thu 
@@ -140,7 +140,7 @@ const Index = () => {
         </ContentSection>
 
         <QuoteCard 
-          quote="Đạo đức cách mạng không phải từ trên trời rơi xuống. Nó do đấu tranh, rèn luyện bền bỉ mà có."
+          quote="Đạo đức cách mạng không phải từ trên trời rơi xuống. Nó do đấu tranh, rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong"
         />
 
         {/* Cơ sở lý luận */}
@@ -179,6 +179,7 @@ const Index = () => {
               title="Hành trình ra đi"
               description="Nguyễn Tất Thành ra đi tìm đường cứu nước; làm nhiều nghề; hoạt động ở Pháp, Mỹ, Trung Quốc, Liên Xô; tiếp cận nhiều học thuyết và phong trào công nhân."
               image={journeyMap}
+              onImageClick={() => window.open(journeyMap, '_blank')}
             />
             <TimelineItem 
               year="1920"
