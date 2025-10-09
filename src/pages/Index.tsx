@@ -6,7 +6,7 @@ import ImageGrid from "@/components/ImageGrid";
 import TimelineItem from "@/components/TimelineItem";
 
 import revolutionScene from "@/assets/cach-mang.jpg";
-import culturalHeritage from "@/assets/csvh.jpg";
+import culturalHeritage from "@/assets/bac-ho.png";
 import journeyMap from "@/assets/hanhtrinhraditimduongcuunuoc.jpg";
 import theoryBooks from "@/assets/marx-lenin-hcm.jpg";
 import patternBg from "@/assets/pattern-bg.jpg";
@@ -77,9 +77,8 @@ const Index = () => {
             <div className="rounded-lg bg-muted/50 p-6 border-l-4 border-accent">
               <h3 className="text-xl font-bold text-foreground mb-3">Phong trào cách mạng thế giới</h3>
               <p className="text-foreground leading-relaxed">
-                Sự phát triển của phong trào vô sản quốc tế, Cách mạng Tháng Mười Nga (1917) và hoạt động của 
-                Quốc tế Cộng sản cung cấp một học thuyết cách mạng khoa học, hữu hiệu để giải quyết vấn đề 
-                dân tộc - dân chủ - xã hội ở các nước thuộc địa.
+                Sự phát triển của phong trào vô sản quốc tế, Cách mạng Tháng Mười Nga (1917) và hoạt động của Quốc tế Cộng sản cung cấp một học thuyết cách mạng khoa học, 
+                hữu hiệu để giải quyết vấn đề dân tộc - dân chủ - xã hội ở các nước thuộc địa. Hồ Chí Minh tiếp cận và vận dụng chủ nghĩa Mác-Lênin trong bối cảnh này.
               </p>
             </div>
           </div>
@@ -102,8 +101,8 @@ const Index = () => {
               </div> */}
               <h3 className="text-xl font-bold text-foreground mb-3">Truyền thống văn hóa dân tộc</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Tinh thần yêu nước, tinh thần cộng đồng, đạo đức nhân nghĩa, lòng hiếu học, 
-                tính cần cù được Hồ Chí Minh tiếp nhận từ gia đình và lịch sử dân tộc.
+                Những giá trị như tinh thần yêu nước, tinh thần cộng đồng, đạo đức “nhân nghĩa”, lòng hiếu học, tính cần cù, tinh thần kháng chiến được Hồ Chí Minh tiếp nhận từ gia đình, quê hương và lịch sử dân tộc. 
+                Ông thường vận dụng truyền thống này khi kêu gọi đoàn kết, nâng cao đạo đức cán bộ, phát động phong trào quần chúng.
               </p>
             </div>
 

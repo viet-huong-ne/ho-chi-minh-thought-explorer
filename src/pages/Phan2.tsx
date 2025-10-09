@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 import formationProcess from "@/assets/qua-trinh-hinh-thanh.png";
 import period1890 from "@/assets/period-1890.jpg";
-import period1920 from "@/assets/period-1920.jpg";
+import period1920 from "@/assets/LENIN3.jpg";
 import period1945 from "@/assets/co-ban-tu-tuong-cach-mang.jpg";
 
 interface TimelinePeriod {
